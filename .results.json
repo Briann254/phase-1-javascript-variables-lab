@@ -2,37 +2,32 @@
   "stats": {
     "suites": 4,
     "tests": 6,
-    "passes": 5,
+    "passes": 6,
     "pending": 0,
-    "failures": 1,
-    "start": "2022-11-23T06:04:52.593Z",
-    "end": "2022-11-23T06:04:54.702Z",
-    "duration": 2109
+    "failures": 0,
+    "start": "2022-12-08T09:55:49.567Z",
+    "end": "2022-12-08T09:55:51.576Z",
+    "duration": 2009
   },
   "tests": [
     {
       "title": "is set as Scuber",
       "fullTitle": "index.js companyName is set as Scuber",
-      "duration": 2,
+      "duration": 3,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "is defined as a const",
       "fullTitle": "index.js companyName is defined as a const",
-      "duration": 3,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "Expected companyName to be a const: expected '// Code your solution in this file!\\nlet companyName = \\'Scuber\\' ;\\nconst companyNmae = \\'const\\';\\nlet mostProfitableNeighborhood = \\'Chelsea\\'\\nlet companyCeo = \\'Susan Smith\\';' to match /const companyName/",
-        "showDiff": false,
-        "actual": "// Code your solution in this file!\nlet companyName = 'Scuber' ;\nconst companyNmae = 'const';\nlet mostProfitableNeighborhood = 'Chelsea'\nlet companyCeo = 'Susan Smith';",
-        "stack": "AssertionError: Expected companyName to be a const: expected '// Code your solution in this file!\\nlet companyName = \\'Scuber\\' ;\\nconst companyNmae = \\'const\\';\\nlet mostProfitableNeighborhood = \\'Chelsea\\'\\nlet companyCeo = \\'Susan Smith\\';' to match /const companyName/\n    at Context.<anonymous> (test/indexTest.js:13:21)\n    at process.processImmediate (node:internal/timers:471:21)"
-      }
+      "err": {}
     },
     {
       "title": "is declared as equal to Chelsea",
       "fullTitle": "index.js mostProfitableNeighborhood is declared as equal to Chelsea",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -53,38 +48,32 @@
     {
       "title": "is defined using let",
       "fullTitle": "index.js companyCeo is defined using let",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "is defined as a const",
-      "fullTitle": "index.js companyName is defined as a const",
-      "duration": 3,
-      "currentRetry": 0,
-      "err": {
-        "message": "Expected companyName to be a const: expected '// Code your solution in this file!\\nlet companyName = \\'Scuber\\' ;\\nconst companyNmae = \\'const\\';\\nlet mostProfitableNeighborhood = \\'Chelsea\\'\\nlet companyCeo = \\'Susan Smith\\';' to match /const companyName/",
-        "showDiff": false,
-        "actual": "// Code your solution in this file!\nlet companyName = 'Scuber' ;\nconst companyNmae = 'const';\nlet mostProfitableNeighborhood = 'Chelsea'\nlet companyCeo = 'Susan Smith';",
-        "stack": "AssertionError: Expected companyName to be a const: expected '// Code your solution in this file!\\nlet companyName = \\'Scuber\\' ;\\nconst companyNmae = \\'const\\';\\nlet mostProfitableNeighborhood = \\'Chelsea\\'\\nlet companyCeo = \\'Susan Smith\\';' to match /const companyName/\n    at Context.<anonymous> (test/indexTest.js:13:21)\n    at process.processImmediate (node:internal/timers:471:21)"
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "is set as Scuber",
       "fullTitle": "index.js companyName is set as Scuber",
-      "duration": 2,
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is defined as a const",
+      "fullTitle": "index.js companyName is defined as a const",
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "is declared as equal to Chelsea",
       "fullTitle": "index.js mostProfitableNeighborhood is declared as equal to Chelsea",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -105,7 +94,7 @@
     {
       "title": "is defined using let",
       "fullTitle": "index.js companyCeo is defined using let",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     }
